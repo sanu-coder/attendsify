@@ -75,7 +75,10 @@
             success: function(response){
                console.log(response);
                if(response.result === 'success'){
+
+
                     $("#EmailSent").css('display', "block");
+                    // Helllo
                }
             }, 
             error: function(jqXHR, textStatus, err){
